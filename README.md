@@ -1,0 +1,3 @@
+# RecursionError: maximum recursion depth exceeded in Python
+
+This repository demonstrates a common error in Python involving recursive functions: the `RecursionError: maximum recursion depth exceeded` error.  The `bug.py` file contains the problematic code, which uses recursion to calculate a sum. For large inputs, the recursion depth exceeds Python's limit.  The `bugSolution.py` provides a corrected iterative version that avoids the recursion depth issue.
